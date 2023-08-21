@@ -23,6 +23,6 @@ Grid is alway a powerful tool to use in css. I learn this from Kevin Powell here
 
 
 <img src="gitimg/gridposition.png"></img>
-<img src="gitimg/magazineconcept.png"></img>
 <img src="gitimg/dotted.png"></img>
+<img src="gitimg/magazineconcept.png"></img>
 
