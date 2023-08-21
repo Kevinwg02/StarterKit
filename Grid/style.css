@@ -1,0 +1,50 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #1C2533;
+}
+
+.card {
+    padding-block: 1rem;
+    width: min(50%, 50rem);
+    margin-inline: auto;
+    background-color: rgb(20, 140, 253);
+    font-size: 15px;
+    border-radius: 2%;
+}
+
+.degree {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5rem;
+}
+
+.year {
+    font-size: 10px;
+}
+
+.line {
+    width: 5px;
+    height: 800%;
+    background-color: rgb(20, 140, 253);
+    position: absolute;
+    margin-left: 1%;
+}
+
+.timeline-container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-col-span2 {
+    background-color: rgb(39, 253, 20);
+    grid-column: span 2;
+    grid-row: 1;
+}
+
+.card:first-child {
+    background-color: rgb(253, 20, 20);
+    grid-column: 3;
+    grid-row: 2;
+}

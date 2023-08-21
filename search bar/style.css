@@ -1,0 +1,25 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    background: rgb(30,31,53);
+}
+
+.searchbar{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+.result{
+    filter: blur(1.5px);
+}
+input{
+    width: 45ch;
+    height: 5ch;
+    border-radius: 20px;
+    border-color: whitesmoke;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: medium;
+}

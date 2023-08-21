@@ -1,0 +1,29 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #1C2533;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(20, 140, 253);
+}
+.line{
+    width: 5px;
+    height: 600px;
+    background-color: rgb(20, 140, 253);
+    position: absolute;
+    margin-left: 40%;
+}
+
+.timeline_container{
+    display: grid;
+    grid-template-columns: repeat( 1,1fr); 
+    grid-gap: 50%;
+    position: absolute;
+    top: 20%;
+    left:50%;
+}

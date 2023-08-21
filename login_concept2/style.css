@@ -1,0 +1,40 @@
+html,
+body {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    background: rgba(0, 0, 0, 0.712);
+    height: 100%;
+    width: 100%;
+}
+
+.imga,
+.imga img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.log {
+    background: rgb(124, 0, 155);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(50%);
+}
+
+input {
+    padding: 5% 0%;
+    font-size: 1.2rem;
+}
+
+label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+}
+
+#pwdsubmit {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    padding: 4% 5%;
+    background: rgb(253, 253, 253);
+}

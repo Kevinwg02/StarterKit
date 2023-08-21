@@ -1,0 +1,102 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.imhere {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+sidebar {
+    z-index: 1;
+    font-family: 'Roboto', sans-serif;
+    background: #030303;
+    width: 15rem;
+    height: 100vh;
+    position: relative;
+    float: left;
+    display: block;
+}
+
+sidebar a {
+    opacity: 0.7;
+    text-decoration: none;
+    display: block;
+    padding-top: 10%;
+    color: white;
+    text-align: center;
+    height: 25px;
+    line-height: 50%;
+}
+
+sidebar a:hover {
+    background-color: #FD4556;
+}
+
+.downnav {
+    position: absolute;
+    bottom: 0%;
+    margin-left: 5%;
+    display: flex;
+}
+
+.downnav h1 {
+    width: 8rem;
+    margin-left: 0;
+}
+
+.downnav h1:hover {
+    width: 8rem;
+    opacity: 1;
+    margin-left: 0;
+}
+
+
+.downnavimg {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-right: 1em;
+    filter: grayscale(100%);
+}
+
+.navnameh1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3em;
+    color: #FD4556;
+    text-align: center;
+}
+
+
+
+.opensidenav {
+    position: absolute;
+    display: block;
+}
+
+.exitsidenav {
+    display: none;
+}
+
+@media only screen and (max-width: 1500px) {
+    sidebar {
+        display: block;
+    }
+
+    #mainname {
+        position: absolute;
+        left: 35%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    sidebar {
+        display: none;
+    }
+
+    .opensidenav {
+        position: absolute;
+        display: block;
+    }
+}

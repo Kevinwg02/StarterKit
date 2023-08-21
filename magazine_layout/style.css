@@ -1,0 +1,80 @@
+:root {
+    --ff-body: 'Roboto', sans-serif;
+    --ff-heading: 'Oswald', sans-serif;
+
+    --clr-primary-400: hsl(60, 100%, 20%);
+    --clr-neutral-900: hsl(0, 0%, 0%);
+    --clr-neutral-100: hsl(0, 0%, 40%);
+
+    --fs-xl: clamp(3rem, 1rem + 10vw, 10rem);
+    --fs-600: 2rem;
+    --fs-500: 1.8rem;
+    --fs-400: 1.5rem;
+    /* font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif; */
+}
+
+
+body,
+h1,
+h2,
+h3,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    font-family: var(--ff-body);
+    font-size: var(--fs-400);
+}
+
+h1,
+.lead,
+blockquote {
+    font-family: var(--ff-heading);
+    font-weight: 900;
+}
+
+h1 {
+    font-size: var(--fs-xl);
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+article {
+    display: grid;
+}
+
+
+article>*:not(img) {
+    padding: 0 2rem;
+}
+
+.article-body {
+    columns: 2 20ch;
+    gap: 4rem;
+    max-width: 100ch;
+}
+
+@media(min-width: 40em) {
+    article {
+        grid-template-columns: min(40rem) 1fr;
+        /* grid-template-columns: minmax(40%, 40%) 1fr; */
+    }
+
+    article>*:not(img) {
+        grid-column: 2 / -1;
+    }
+
+    article>img {
+        grid-row: 1/4;
+        height: 110%;
+        object-fit: cover;
+    }
+}

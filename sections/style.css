@@ -1,0 +1,58 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+    background: rgb(0, 41, 80);
+    color: white;
+}
+
+topnav{
+    z-index: 5;
+    width: 100%;
+    height: 3.5rem;
+    text-align: center;
+    background: transparent;
+    position: absolute;
+}
+
+topnav a{
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: white;
+}
+
+topnav a, i {
+    padding: 2% 0 0 0;
+}
+
+
+
+.screen{
+    z-index: 8;
+    margin: 0%;
+    width: 100%;
+    height: 100vh;
+}
+#one, #two, #three, #four, #five{
+ display: none;
+}
+
+#one{
+    background: rgb(0, 41, 80);
+}
+#two{
+    background: rgb(167, 78, 6);
+}
+#three{
+    background: rgb(2, 88, 5);
+}
+#four{
+    background: rgb(182, 0, 0);
+}
+
+#five{
+    background: rgb(72, 0, 100);
+}
+

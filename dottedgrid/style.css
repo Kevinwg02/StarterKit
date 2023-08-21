@@ -1,0 +1,16 @@
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.dot {
+    background-color: black;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+.grid {
+    display: grid;
+    gap: 30px;  
+    grid-template-columns: repeat(20, 0fr);
+}
