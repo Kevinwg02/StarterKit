@@ -1,0 +1,90 @@
+body {
+    margin-top: 2%;
+    margin-left: 2%;
+    font-family: "Barlow Condensed", sans-serif;
+    color: rgb(107, 107, 107);
+}
+
+a { 
+    color: grey;
+    text-decoration: none;
+    margin-right: 55px;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+
+.menu a:hover, .active{
+    border-color: #D8666B;
+    color: #D8666B;
+    border-style: solid none;
+    border-width: 1px;
+}
+
+
+.menu a:hover{
+    border-color: #D8666B;
+    color: #D8666B;
+    border-style: solid none;
+    border-width: 1px;
+}
+
+.menuoptions {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 900px;
+}
+
+.menuoptions div a {
+    display: inline-block; /* Ensure transform works properly */
+    transform: skewX(-30deg); /* Reverse the skew for the links */
+    padding: 10px;
+}
+
+.menuoptions div {
+    text-align: center;
+    transform: skewX(30deg);
+}
+
+#one a{
+    color: #D8666B;
+}
+
+#two a{
+    color: whitesmoke;
+}
+
+#one, #two{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#one{
+    background-color: rgb(216, 213, 213);
+}
+
+#two{
+    background-color: #D8666B;
+}
+
+.map-onglet{
+    font-size: 30px;
+}
+
+li{
+    list-style: circle;
+}
+
+.separetor{
+    background-color: rgb(211, 211, 211);
+    height: 1px;
+    width: 900px;
+    margin-top: 5px;
+}
+
+.contactslist{
+    margin-bottom: 150px;
+}
